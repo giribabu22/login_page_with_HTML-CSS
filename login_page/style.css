@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.page{
+  width: auto;
+  height: 100vh;
+  background-color: rgba(79, 226, 226, 0.548);
+  position: relative;
+}
+.bar{
+  /* background-color: black; */
+  height: 20vh;
+  width: auto;
+}
+.content{
+  margin:  auto;
+  width: 40vh;
+  height: 50vh;
+  background-color: aliceblue;
+  border-radius: 30px;
+  text-align: center;
+}
+.content input{
+  margin: 15px;
+  width: 20vh;
+  height: 2.4vh;
+  background-color: rgba(0, 0, 0, 0.37);
+  color: aliceblue;
+  font-size: 16px;
+  border-radius: 20px;
+  text-align: center;
+}
+.content button{
+  font-size: 14px;
+  font-weight: 300;
+  width: 15vh;
+  height: 40px;
+  background-color: rgba(79, 226, 226, 0.548);
+
+}
+.content button:hover{
+  background-color: aquamarine;
+}
+#suc{
+  color: green;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+
